@@ -1,0 +1,11 @@
+global:
+  version: VERSION
+  css:
+    base:
+      css/donavida_theme.css: {}
+  js:
+    js/donavida_theme.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/modernizr
