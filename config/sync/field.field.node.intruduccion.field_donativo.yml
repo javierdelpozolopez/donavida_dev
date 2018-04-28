@@ -1,0 +1,24 @@
+uuid: b84ed811-6618-4347-89f0-c014c9cc066d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_donativo
+    - node.type.intruduccion
+  module:
+    - text
+id: node.intruduccion.field_donativo
+field_name: field_donativo
+entity_type: node
+bundle: intruduccion
+label: 'quiero donar'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: "<form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\">\r\n<input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\">\r\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"N36FLEZN4BU5G\">\r\n<input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif\" border=\"0\" name=\"submit\" alt=\"PayPal - The safer, easier way to pay online!\">\r\n<img alt=\"\" border=\"0\" src=\"https://www.paypalobjects.com/es_XC/i/scr/pixel.gif\" width=\"1\" height=\"1\">\r\n</form>"
+    format: full_html
+default_value_callback: ''
+settings: {  }
+field_type: text_long

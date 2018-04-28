@@ -1,0 +1,14 @@
+uuid: 8ac60a1e-040a-4040-8586-1678ef6d741f
+langcode: es
+status: true
+dependencies: {  }
+name: noticias_aside
+label: 'noticias aside (350x150)'
+effects:
+  de7bf14e-c3b1-41d3-85e6-3261063c5448:
+    uuid: de7bf14e-c3b1-41d3-85e6-3261063c5448
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 350
+      height: 150

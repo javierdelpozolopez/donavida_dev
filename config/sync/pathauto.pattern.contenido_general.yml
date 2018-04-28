@@ -1,0 +1,25 @@
+uuid: 28b5b07d-980b-4db1-9452-d5c6413b9e67
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: contenido_general
+label: 'contenido general'
+type: 'canonical_entities:node'
+pattern: '[node:content-type:name]/[node:title]'
+selection_criteria:
+  6330a3a4-755e-49c7-9c45-28ade7c5db7a:
+    id: node_type
+    bundles:
+      article: article
+      directorio: directorio
+      historias: historias
+      noticias: noticias
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 6330a3a4-755e-49c7-9c45-28ade7c5db7a
+selection_logic: and
+weight: -5
+relationships: {  }

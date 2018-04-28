@@ -1,0 +1,11 @@
+uuid: 11deb4ff-e0aa-4098-a91e-6efd420717ba
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.intruduccion
+id: node.intruduccion
+target_entity_type_id: node
+target_bundle: intruduccion
+default_langcode: site_default
+language_alterable: false

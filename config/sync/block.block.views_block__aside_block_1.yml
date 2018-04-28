@@ -1,0 +1,30 @@
+uuid: b0aed983-cbda-4397-a673-e648a4ca0c72
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.aside
+  module:
+    - system
+    - views
+  theme:
+    - donavidatheme
+id: views_block__aside_block_1
+theme: donavidatheme
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:aside-block_1'
+settings:
+  id: 'views_block:aside-block_1'
+  label: 'También te puede interesar'
+  provider: views
+  label_display: visible
+  views_label: 'También te puede interesar'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/directorio"
+    negate: true
+    context_mapping: {  }

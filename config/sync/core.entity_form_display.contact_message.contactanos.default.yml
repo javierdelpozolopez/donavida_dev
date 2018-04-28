@@ -1,0 +1,69 @@
+uuid: d9d104db-98d9-48ce-bf62-35fb93917094
+langcode: es
+status: true
+dependencies:
+  config:
+    - contact.form.contactanos
+    - field.field.contact_message.contactanos.field_correo
+    - field.field.contact_message.contactanos.field_mensaje
+    - field.field.contact_message.contactanos.field_nombre
+    - field.field.contact_message.contactanos.field_titulo
+id: contact_message.contactanos.default
+targetEntityType: contact_message
+bundle: contactanos
+mode: default
+content:
+  copy:
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_correo:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_mensaje:
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_nombre:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_titulo:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  langcode:
+    type: language_select
+    weight: 4
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  preview:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  mail: true
+  message: true
+  name: true
+  subject: true

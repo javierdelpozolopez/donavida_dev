@@ -1,0 +1,17 @@
+uuid: 326f8223-9180-42e1-9039-f4298eaa080b
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'boton de donativo'
+type: boton_de_donativo
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

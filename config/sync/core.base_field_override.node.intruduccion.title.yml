@@ -1,0 +1,18 @@
+uuid: e3ebf414-2fbe-486a-8b5f-8969b2e35493
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.intruduccion
+id: node.intruduccion.title
+field_name: title
+entity_type: node
+bundle: intruduccion
+label: Titulo
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,31 @@
+uuid: a37ef719-2d52-430d-8aa2-2641a455dbe4
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_historia_parrafo
+    - node.type.historias
+  module:
+    - entity_reference_revisions
+id: node.historias.field_historia_parrafo
+field_name: field_historia_parrafo
+entity_type: node
+bundle: historias
+label: parrafo
+description: 'Agregar párrafos a la historia.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    target_bundles_drag_drop:
+      content:
+        weight: 3
+        enabled: false
+      solo_texto:
+        weight: 4
+        enabled: false
+field_type: entity_reference_revisions

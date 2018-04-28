@@ -1,0 +1,100 @@
+uuid: cc96fbb3-0004-476d-9462-1c4275222813
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.mitos_sobre_la_donacion.field_banner_link
+    - field.field.node.mitos_sobre_la_donacion.field_description
+    - field.field.node.mitos_sobre_la_donacion.field_portada
+    - node.type.mitos_sobre_la_donacion
+  module:
+    - blazy
+    - link
+    - user
+id: node.mitos_sobre_la_donacion.default
+targetEntityType: node
+bundle: mitos_sobre_la_donacion
+mode: default
+content:
+  field_banner_link:
+    weight: 4
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_description:
+    weight: 3
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_portada:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: banner_380x380
+      thumbnail_style: ''
+      media_switch: ''
+      box_style: ''
+      box_caption: ''
+      box_caption_custom: ''
+      ratio: ''
+      sizes: ''
+      breakpoints:
+        xs:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+        sm:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+        md:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+        lg:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+        xl:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+      current_view_mode: default
+      background: false
+      caption:
+        title: '0'
+        alt: '0'
+      iframe_lazy: true
+      icon: ''
+      layout: ''
+      view_mode: ''
+      cache: 0
+      optionset: default
+      skin: ''
+      style: ''
+      box_media_style: ''
+      responsive_image_style: ''
+      grid: 0
+      grid_header: ''
+      grid_medium: 0
+      grid_small: 0
+    third_party_settings: {  }
+    type: blazy
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

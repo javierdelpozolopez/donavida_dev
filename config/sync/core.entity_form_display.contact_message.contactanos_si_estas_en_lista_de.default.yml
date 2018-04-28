@@ -1,0 +1,100 @@
+uuid: 06024f08-ca26-4aca-87e9-b069bdc0e406
+langcode: es
+status: true
+dependencies:
+  config:
+    - contact.form.contactanos_si_estas_en_lista_de
+    - field.field.contact_message.contactanos_si_estas_en_lista_de.field_contacto_apellido_materno
+    - field.field.contact_message.contactanos_si_estas_en_lista_de.field_contacto_apellido_paterno
+    - field.field.contact_message.contactanos_si_estas_en_lista_de.field_contacto_nombre
+    - field.field.contact_message.contactanos_si_estas_en_lista_de.field_contacto_ru
+    - field.field.contact_message.contactanos_si_estas_en_lista_de.field_correo_electronico
+id: contact_message.contactanos_si_estas_en_lista_de.default
+targetEntityType: contact_message
+bundle: contactanos_si_estas_en_lista_de
+mode: default
+content:
+  copy:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_contacto_apellido_materno:
+    weight: 7
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_contacto_apellido_paterno:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_contacto_nombre:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_contacto_ru:
+    weight: 8
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_correo_electronico:
+    weight: 9
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  mail:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  message:
+    type: string_textarea
+    weight: 11
+    settings:
+      rows: 12
+      placeholder: 'Dinos en que podemos ayudarte.'
+    region: content
+    third_party_settings: {  }
+  name:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  preview:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  subject:
+    type: string_textfield
+    weight: 10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

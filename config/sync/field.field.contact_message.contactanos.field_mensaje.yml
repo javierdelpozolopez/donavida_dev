@@ -1,0 +1,19 @@
+uuid: 2df46716-453a-45ba-a99e-f6fba0b420bf
+langcode: es
+status: true
+dependencies:
+  config:
+    - contact.form.contactanos
+    - field.storage.contact_message.field_mensaje
+id: contact_message.contactanos.field_mensaje
+field_name: field_mensaje
+entity_type: contact_message
+bundle: contactanos
+label: mensaje
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

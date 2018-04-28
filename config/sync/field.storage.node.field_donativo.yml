@@ -1,0 +1,19 @@
+uuid: ea03cf1f-41d8-4703-b8ce-428241d1073b
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_donativo
+field_name: field_donativo
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

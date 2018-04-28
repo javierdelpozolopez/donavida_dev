@@ -1,0 +1,20 @@
+uuid: 1f209abc-8c25-4177-b8ec-52813e6db64a
+langcode: es
+status: false
+dependencies:
+  module:
+    - language
+  theme:
+    - donavidatheme
+id: alternadordeidioma
+theme: donavidatheme
+region: footer_middle
+weight: -11
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Seleccionar idioma'
+  provider: language
+  label_display: visible
+visibility: {  }

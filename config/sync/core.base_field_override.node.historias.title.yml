@@ -1,0 +1,18 @@
+uuid: ddd72a6f-6ac5-4919-8e8f-c5714729475a
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.historias
+id: node.historias.title
+field_name: title
+entity_type: node
+bundle: historias
+label: 'Nombre de la historia'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

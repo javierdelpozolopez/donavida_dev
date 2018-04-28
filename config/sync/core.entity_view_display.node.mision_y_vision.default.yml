@@ -1,0 +1,47 @@
+uuid: 1e060931-47c7-4e6a-96b0-b28c613f9c51
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.mision_y_vision.field_desc
+    - field.field.node.mision_y_vision.field_img
+    - field.field.node.mision_y_vision.field_mision
+    - node.type.mision_y_vision
+  module:
+    - image
+    - options
+    - user
+id: node.mision_y_vision.default
+targetEntityType: node
+bundle: mision_y_vision
+mode: default
+content:
+  field_desc:
+    weight: 101
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_img:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_mision:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

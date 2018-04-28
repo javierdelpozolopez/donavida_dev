@@ -1,0 +1,22 @@
+uuid: c48f636d-5931-47a3-aabc-454876d1ca77
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.mitos
+  module:
+    - text
+id: node.mitos.body
+field_name: body
+entity_type: node
+bundle: mitos
+label: Cuerpo
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,30 @@
+uuid: 0efaac04-fbb4-4c7a-9c9b-bc7c0b147d65
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.noticias
+  module:
+    - system
+    - views
+  theme:
+    - donavidatheme
+id: views_block__noticias_block_1
+theme: donavidatheme
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:noticias-block_1'
+settings:
+  id: 'views_block:noticias-block_1'
+  label: Noticias
+  provider: views
+  label_display: visible
+  views_label: Noticias
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

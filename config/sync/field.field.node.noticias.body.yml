@@ -1,0 +1,22 @@
+uuid: 9fad7794-0ea1-4b71-b824-e464c03643c9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.noticias
+  module:
+    - text
+id: node.noticias.body
+field_name: body
+entity_type: node
+bundle: noticias
+label: texto
+description: 'ingrese el texto de la noticia'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

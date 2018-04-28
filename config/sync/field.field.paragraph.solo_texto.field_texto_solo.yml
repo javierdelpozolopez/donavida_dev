@@ -1,0 +1,21 @@
+uuid: 2b336792-8e25-4b1e-a98f-010f6cb19c71
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_texto_solo
+    - paragraphs.paragraphs_type.solo_texto
+  module:
+    - text
+id: paragraph.solo_texto.field_texto_solo
+field_name: field_texto_solo
+entity_type: paragraph
+bundle: solo_texto
+label: 'texto solo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

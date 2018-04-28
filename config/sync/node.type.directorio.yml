@@ -1,0 +1,17 @@
+uuid: f16f4cd0-d8ac-4d1d-820f-2f68e8d49589
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: directorio
+type: directorio
+description: 'Ingrese integrantes del Directorio'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

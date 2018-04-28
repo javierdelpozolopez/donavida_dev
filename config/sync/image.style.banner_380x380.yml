@@ -1,0 +1,14 @@
+uuid: f39a3612-0dec-4474-87c8-28e8c27a1fbc
+langcode: es
+status: true
+dependencies: {  }
+name: banner_380x380
+label: 'banner 389x241'
+effects:
+  6efd2295-6cac-4cf7-811a-019eeda8d4e7:
+    uuid: 6efd2295-6cac-4cf7-811a-019eeda8d4e7
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 389
+      height: 241

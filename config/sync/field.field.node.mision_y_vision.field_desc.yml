@@ -1,0 +1,19 @@
+uuid: 781bb296-3d80-40f9-983f-977692b626b6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_desc
+    - node.type.mision_y_vision
+id: node.mision_y_vision.field_desc
+field_name: field_desc
+entity_type: node
+bundle: mision_y_vision
+label: desc
+description: 'Aquí debes escribir brevemente la descripción de tu misión y visión'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

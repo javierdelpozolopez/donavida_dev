@@ -1,0 +1,27 @@
+uuid: b17c630d-b6b5-4fbf-8d64-e88cd0e67e91
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.mitos.body
+    - node.type.mitos
+  module:
+    - text
+    - user
+id: node.mitos.default
+targetEntityType: node
+bundle: mitos
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

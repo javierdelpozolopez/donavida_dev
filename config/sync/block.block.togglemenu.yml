@@ -1,0 +1,25 @@
+uuid: 41d49586-a27d-4df8-b1be-b627fcc17f45
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fbb4ec46-c4cc-465c-9bd6-312858c009ce'
+  module:
+    - block_content
+  theme:
+    - donavidatheme
+id: togglemenu
+theme: donavidatheme
+region: meta_header
+weight: -9
+provider: null
+plugin: 'block_content:fbb4ec46-c4cc-465c-9bd6-312858c009ce'
+settings:
+  id: 'block_content:fbb4ec46-c4cc-465c-9bd6-312858c009ce'
+  label: 'toggle menu'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

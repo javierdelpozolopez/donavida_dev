@@ -1,0 +1,23 @@
+uuid: e47fcb8b-8a9d-45c3-8522-918f1c0cd512
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_banner_link
+    - node.type.mitos_sobre_la_donacion
+  module:
+    - link
+id: node.mitos_sobre_la_donacion.field_banner_link
+field_name: field_banner_link
+entity_type: node
+bundle: mitos_sobre_la_donacion
+label: banner_link
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

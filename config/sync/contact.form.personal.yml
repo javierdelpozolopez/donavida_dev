@@ -1,0 +1,13 @@
+uuid: 6443bd3d-ff60-4d0d-a9fc-571995c93faa
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jonvgt3CkUM2eMLTFwWfHileWWDC4YtXCuIlCahTk_I
+id: personal
+label: 'Personal contact form'
+recipients: {  }
+reply: ''
+weight: 0
+message: 'Tu mensaje fue enviado con &eacute;xito.'
+redirect: ''

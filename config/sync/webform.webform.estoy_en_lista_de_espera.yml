@@ -1,0 +1,168 @@
+uuid: fedfb10d-1595-4d60-b5d3-1b218681441f
+langcode: es
+status: open
+dependencies: {  }
+open: null
+close: null
+uid: 1
+template: false
+id: estoy_en_lista_de_espera
+title: 'Estoy en lista de espera'
+description: 'Formulario de contacto para personas en lista de espera'
+category: ''
+elements: "nombre:\n  '#type': textfield\n  '#title': Nombres\n  '#title_display': before\n  '#required': true\napellido_paterno:\n  '#type': textfield\n  '#title': Apellidos\n  '#title_display': before\n  '#required': true\nrut:\n  '#type': textfield\n  '#title': RUT\n  '#help': 'Agregue su RUT'\n  '#title_display': before\n  '#minlength': '1'\n  '#maxlength': '15'\n  '#placeholder': 'Ej: 17.252.819-8'\n  '#required': true\n  '#required_error': 'Este campo es obligatorio'\ncorreo_electronico:\n  '#type': email\n  '#title': 'Correo Electrónico'\n  '#title_display': before\n  '#required': true\ntelefono:\n  '#type': tel\n  '#title': Teléfono\n  '#help': 'Agregue su Tel&eacute;fono'\n  '#maxlength': '15'\n  '#placeholder': 'ej: (+569) 9876 5432'\n  '#required': true\n  '#required_error': 'Este campo es obligatorio'\ncentro_medico_:\n  '#type': textfield\n  '#title': 'Centro médico '\n  '#help': 'Agregue el Centro M&eacute;dico donde se atiende'\n  '#title_display': before\n  '#required': true\nmedico_tratante:\n  '#type': textfield\n  '#title': 'Médico tratante'\n  '#help': 'Agregue el nombre del m&eacute;dico tratante.'\n  '#required': true\n_de_que_te_vas_a_trasplantar_:\n  '#type': textfield\n  '#title': '¿De qué te vas a trasplantar?'\n  '#help': 'Dinos de que debes trasplantarte.'\n  '#required': true\ncuentanos_tu_historia:\n  '#type': textarea\n  '#title': 'Cuéntanos tu historia'\n  '#rows': '10'\n  '#required': true\nactions:\n  '#type': webform_actions\n  '#title': Contactar\n  '#states':\n    visible:\n      '':\n        '': ''\n  '#submit__label': ENVIAR\n  '#submit__attributes':\n    class:\n      - btn\n"
+css: ''
+javascript: ''
+settings:
+  ajax: true
+  ajax_scroll_top: ''
+  page: false
+  page_submit_path: /estoy-en-lista-de-espera
+  page_confirm_path: ''
+  form_submit_once: false
+  form_exception_message: ''
+  form_open_message: ''
+  form_close_message: ''
+  form_previous_submissions: true
+  form_confidential: false
+  form_confidential_message: ''
+  form_convert_anonymous: false
+  form_prepopulate: false
+  form_prepopulate_source_entity: false
+  form_prepopulate_source_entity_required: false
+  form_prepopulate_source_entity_type: ''
+  form_reset: false
+  form_disable_autocomplete: false
+  form_novalidate: false
+  form_required: false
+  form_unsaved: false
+  form_disable_back: false
+  form_submit_back: false
+  form_autofocus: false
+  form_details_toggle: false
+  form_login: true
+  form_login_message: ''
+  submission_label: 'Alguien está en lista de espera'
+  submission_log: false
+  submission_user_columns: {  }
+  submission_login: false
+  submission_login_message: ''
+  submission_exception_message: ''
+  submission_locked_message: ''
+  autofill: false
+  autofill_message: ''
+  autofill_excluded_elements: {  }
+  wizard_progress_bar: true
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_start_label: ''
+  wizard_confirmation: true
+  wizard_confirmation_label: ''
+  wizard_track: ''
+  preview: 0
+  preview_label: ''
+  preview_title: ''
+  preview_message: ''
+  preview_attributes: {  }
+  preview_excluded_elements: {  }
+  preview_exclude_empty: true
+  draft: none
+  draft_multiple: false
+  draft_auto_save: false
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  confirmation_type: message
+  confirmation_title: '¡Gracias por contactárnos!'
+  confirmation_message: '&iexcl;Gracias! Te responderemos a la brevedad.'
+  confirmation_url: ''
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: ''
+  confirmation_back_attributes: {  }
+  limit_total: null
+  limit_total_interval: null
+  limit_total_message: ''
+  limit_user: null
+  limit_user_interval: null
+  limit_user_message: ''
+  entity_limit_total: null
+  entity_limit_total_interval: null
+  entity_limit_user: null
+  entity_limit_user_interval: null
+  purge: none
+  purge_days: null
+  results_disabled: false
+  results_disabled_ignore: false
+  token_update: false
+access:
+  create:
+    roles:
+      - anonymous
+      - authenticated
+    users: {  }
+    permissions: {  }
+  view_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  purge_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  view_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  administer:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+handlers:
+  correo_electronico:
+    id: email
+    label: 'Correo electrónico'
+    handler_id: correo_electronico
+    status: true
+    conditions: {  }
+    weight: 0
+    settings:
+      states:
+        - completed
+      to_mail: francisco.guerrero@fundaciondonavida.cl
+      to_options: {  }
+      cc_mail: javierdelpozolopez@gmail.com
+      cc_options: {  }
+      bcc_mail: ''
+      bcc_options: {  }
+      from_mail: default
+      from_options: {  }
+      from_name: '[webform_submission:values:nombre:raw]'
+      subject: 'Contacto - Estoy en Lista de Espera'
+      body: "<p>Enviado el {{ webform_token('[webform_submission:created]', webform_submission) }}</p>\n<p>Enviado por: {{ webform_token('[webform_submission:user]', webform_submission) }}</p>\n<p>Información enviada:</p>\n{{ webform_token('[webform_submission:values]', webform_submission) }}\n"
+      excluded_elements: {  }
+      ignore_access: false
+      exclude_empty: true
+      html: true
+      attachments: false
+      twig: true
+      debug: false
+      reply_to: ''
+      return_path: ''
+      sender_mail: ''
+      sender_name: ''

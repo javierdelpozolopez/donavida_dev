@@ -1,0 +1,28 @@
+uuid: ff46b519-4deb-4eae-bd5a-96419c42c242
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_parrafo
+    - node.type.page
+  module:
+    - entity_reference_revisions
+id: node.page.field_parrafo
+field_name: field_parrafo
+entity_type: node
+bundle: page
+label: parrafo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    target_bundles_drag_drop:
+      content:
+        weight: 2
+        enabled: false
+field_type: entity_reference_revisions

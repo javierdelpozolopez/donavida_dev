@@ -1,0 +1,22 @@
+uuid: c5bb830c-a376-48c6-ba4f-d272c2cde28c
+langcode: es
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+id: comment.comment.status
+field_name: status
+entity_type: comment
+bundle: comment
+label: 'Estado de publicación'
+description: 'Un booleano que indica el estado de publicación.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

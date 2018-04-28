@@ -1,0 +1,10 @@
+uuid: 4800bd25-243d-4251-bcc6-980843780c24
+langcode: es
+status: true
+dependencies:
+  module:
+    - block
+id: block.token
+label: Comodín
+targetEntityType: block
+cache: true

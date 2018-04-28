@@ -1,0 +1,18 @@
+uuid: cdbc3726-3ea8-4bba-b89b-70ea04b27ccf
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.mitos
+id: node.mitos.title
+field_name: title
+entity_type: node
+bundle: mitos
+label: Titulo
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

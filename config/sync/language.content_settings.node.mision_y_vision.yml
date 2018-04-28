@@ -1,0 +1,11 @@
+uuid: 82af909f-ee67-4b38-a5d9-d850b500793c
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.mision_y_vision
+id: node.mision_y_vision
+target_entity_type_id: node
+target_bundle: mision_y_vision
+default_langcode: site_default
+language_alterable: false

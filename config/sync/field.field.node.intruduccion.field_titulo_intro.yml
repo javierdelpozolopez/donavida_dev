@@ -1,0 +1,19 @@
+uuid: 9139d8ca-1fa2-4e96-9a49-20168c1907c0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titulo_intro
+    - node.type.intruduccion
+id: node.intruduccion.field_titulo_intro
+field_name: field_titulo_intro
+entity_type: node
+bundle: intruduccion
+label: 'titulo intro'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

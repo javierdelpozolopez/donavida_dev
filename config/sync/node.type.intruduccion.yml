@@ -1,0 +1,17 @@
+uuid: ed0067f9-c06c-475d-99e9-7533606e1dde
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Intruduccion
+type: intruduccion
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,24 @@
+uuid: 9e689655-6edd-4e69-9d9a-1b964042891a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_btn
+    - node.type.boton_de_donativo
+  module:
+    - text
+id: node.boton_de_donativo.field_btn
+field_name: field_btn
+entity_type: node
+bundle: boton_de_donativo
+label: 'btn donativo'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"> <input type="hidden" name="cmd" value="_s-xclick"> <input type="hidden" name="hosted_button_id" value="N36FLEZN4BU5G"> <input type="image" src="https://www.paypalobjects.com'
+    format: full_html
+default_value_callback: ''
+settings: {  }
+field_type: text

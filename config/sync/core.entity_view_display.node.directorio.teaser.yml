@@ -1,0 +1,25 @@
+uuid: af55b161-d9a4-48c0-8597-dfd67ca4a4c8
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.directorio.field_cargo
+    - field.field.node.directorio.field_curriculum
+    - field.field.node.directorio.field_img_dire
+    - node.type.directorio
+  module:
+    - user
+id: node.directorio.teaser
+targetEntityType: node
+bundle: directorio
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_cargo: true
+  field_curriculum: true
+  field_img_dire: true
+  langcode: true

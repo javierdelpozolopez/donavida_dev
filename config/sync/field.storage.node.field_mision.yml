@@ -1,0 +1,27 @@
+uuid: 270c8e35-f9ac-4873-9ae8-3a7eda1966dd
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_mision
+field_name: field_mision
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: mision
+      label: mision
+    -
+      value: vision
+      label: vision
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

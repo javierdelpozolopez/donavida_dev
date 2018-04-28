@@ -1,0 +1,19 @@
+uuid: 2c0211df-33ff-49db-8663-89a1f9775474
+langcode: es
+status: true
+dependencies:
+  config:
+    - contact.form.contactanos_si_estas_en_lista_de
+    - field.storage.contact_message.field_correo_electronico
+id: contact_message.contactanos_si_estas_en_lista_de.field_correo_electronico
+field_name: field_correo_electronico
+entity_type: contact_message
+bundle: contactanos_si_estas_en_lista_de
+label: 'correo electronico'
+description: 'Agregue su correo electrónico.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

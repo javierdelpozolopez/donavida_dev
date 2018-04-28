@@ -1,0 +1,19 @@
+uuid: d16f4453-e750-4e3c-aa6e-0ed0e0b41649
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_des_intro
+    - node.type.intruduccion
+id: node.intruduccion.field_des_intro
+field_name: field_des_intro
+entity_type: node
+bundle: intruduccion
+label: des_intro
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

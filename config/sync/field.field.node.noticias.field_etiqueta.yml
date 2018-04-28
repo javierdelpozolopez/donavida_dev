@@ -1,0 +1,28 @@
+uuid: dc4f47f1-1afe-4b56-adb3-2694a33d2e32
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_etiqueta
+    - node.type.noticias
+    - taxonomy.vocabulary.tags
+id: node.noticias.field_etiqueta
+field_name: field_etiqueta
+entity_type: node
+bundle: noticias
+label: etiqueta
+description: 'Seleccione a que pertenece esta publicación (noticia, artículo, evento, etc)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

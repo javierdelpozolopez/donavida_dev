@@ -1,0 +1,17 @@
+uuid: 12fdfc67-1c58-466a-a9cb-502e37081cf2
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Historias
+type: historias
+description: 'Agregar una historia sobre donación de órganos.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

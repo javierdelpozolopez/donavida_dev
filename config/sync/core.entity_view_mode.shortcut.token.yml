@@ -1,0 +1,10 @@
+uuid: 004334a9-6c38-429f-9c86-df405a02fb31
+langcode: es
+status: true
+dependencies:
+  module:
+    - shortcut
+id: shortcut.token
+label: Comodín
+targetEntityType: shortcut
+cache: true

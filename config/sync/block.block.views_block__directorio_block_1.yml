@@ -1,0 +1,30 @@
+uuid: 444440f5-8dff-4d9a-bd10-d67dcb043dba
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.directorio
+  module:
+    - system
+    - views
+  theme:
+    - donavidatheme
+id: views_block__directorio_block_1
+theme: donavidatheme
+region: content
+weight: -1
+provider: null
+plugin: 'views_block:directorio-block_1'
+settings:
+  id: 'views_block:directorio-block_1'
+  label: Directorio
+  provider: views
+  label_display: visible
+  views_label: Directorio
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

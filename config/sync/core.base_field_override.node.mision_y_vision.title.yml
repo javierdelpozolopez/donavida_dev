@@ -1,0 +1,18 @@
+uuid: 05320c8f-4977-47cc-995e-1897d18035af
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.mision_y_vision
+id: node.mision_y_vision.title
+field_name: title
+entity_type: node
+bundle: mision_y_vision
+label: titulo
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

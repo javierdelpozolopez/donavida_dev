@@ -1,0 +1,30 @@
+uuid: 705de511-e7db-4474-8a52-fadba9828c11
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.mision_block
+  module:
+    - system
+    - views
+  theme:
+    - donavidatheme
+id: views_block__mision_block_vision
+theme: donavidatheme
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:mision_block-vision'
+settings:
+  id: 'views_block:mision_block-vision'
+  label: Visión
+  provider: views
+  label_display: visible
+  views_label: Visión
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

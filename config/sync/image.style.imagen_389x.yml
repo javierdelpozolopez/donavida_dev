@@ -1,0 +1,14 @@
+uuid: 5299e1ce-8521-4115-9303-da8e03f1d951
+langcode: es
+status: true
+dependencies: {  }
+name: imagen_389x
+label: 'imagen 389x241'
+effects:
+  1a35f73c-5b1f-46c6-bc3b-5eaefccbd82c:
+    uuid: 1a35f73c-5b1f-46c6-bc3b-5eaefccbd82c
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 389
+      height: 241

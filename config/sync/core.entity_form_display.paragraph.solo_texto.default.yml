@@ -1,0 +1,26 @@
+uuid: ada76144-f3de-4c1f-8d7b-550e03e6f86d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.solo_texto.field_texto_solo
+    - paragraphs.paragraphs_type.solo_texto
+  module:
+    - text
+id: paragraph.solo_texto.default
+targetEntityType: paragraph
+bundle: solo_texto
+mode: default
+content:
+  field_texto_solo:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

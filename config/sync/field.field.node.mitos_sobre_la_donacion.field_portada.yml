@@ -1,0 +1,38 @@
+uuid: aa804277-ccc5-4b84-97ef-3775ebdf58e1
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_portada
+    - node.type.mitos_sobre_la_donacion
+  module:
+    - image
+id: node.mitos_sobre_la_donacion.field_portada
+field_name: field_portada
+entity_type: node
+bundle: mitos_sobre_la_donacion
+label: portada
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png jpg jpeg'
+  max_filesize: '4 MB'
+  max_resolution: 2000x2000
+  min_resolution: 200x200
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

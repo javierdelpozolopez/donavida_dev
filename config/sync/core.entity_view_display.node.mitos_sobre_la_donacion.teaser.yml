@@ -1,0 +1,25 @@
+uuid: 34838d99-7a36-4f84-b97a-8a5880a9b8ee
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.mitos_sobre_la_donacion.field_banner_link
+    - field.field.node.mitos_sobre_la_donacion.field_description
+    - field.field.node.mitos_sobre_la_donacion.field_portada
+    - node.type.mitos_sobre_la_donacion
+  module:
+    - user
+id: node.mitos_sobre_la_donacion.teaser
+targetEntityType: node
+bundle: mitos_sobre_la_donacion
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_banner_link: true
+  field_description: true
+  field_portada: true
+  langcode: true

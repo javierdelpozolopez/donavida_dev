@@ -1,0 +1,19 @@
+uuid: 95442ef2-70d6-4137-b297-f95b92e9dbdc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - node.type.mitos_sobre_la_donacion
+id: node.mitos_sobre_la_donacion.field_description
+field_name: field_description
+entity_type: node
+bundle: mitos_sobre_la_donacion
+label: description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

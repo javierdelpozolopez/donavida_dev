@@ -1,0 +1,18 @@
+uuid: 6a6e56c8-7d16-400d-8fb8-99bad3ae7ac7
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.boton_de_donativo
+id: node.boton_de_donativo.title
+field_name: title
+entity_type: node
+bundle: boton_de_donativo
+label: 'Nombre del boton'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,7 @@
+uuid: da5bb7c1-8eab-4493-911a-4e19b4a88e54
+langcode: es
+status: true
+dependencies: {  }
+id: solo_texto
+label: 'solo texto'
+behavior_plugins: {  }

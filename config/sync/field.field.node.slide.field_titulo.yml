@@ -1,0 +1,19 @@
+uuid: e604696e-4b93-409f-bf13-e7e1f68f636d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titulo
+    - node.type.slide
+id: node.slide.field_titulo
+field_name: field_titulo
+entity_type: node
+bundle: slide
+label: titulo
+description: 'Ingrese un titulo para el slide'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,38 @@
+uuid: af55fa61-6ac0-4a03-b94b-0e67f7531335
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_img
+    - node.type.mision_y_vision
+  module:
+    - image
+id: node.mision_y_vision.field_img
+field_name: field_img
+entity_type: node
+bundle: mision_y_vision
+label: img
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png jpg jpeg'
+  max_filesize: '2 MB'
+  max_resolution: 600x600
+  min_resolution: 200x200
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

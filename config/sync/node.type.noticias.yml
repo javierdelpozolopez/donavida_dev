@@ -1,0 +1,17 @@
+uuid: b4dcba04-e08a-494b-93d7-a081233b9e27
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: noticias
+type: noticias
+description: 'Agregué una noticia'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

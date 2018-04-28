@@ -1,0 +1,26 @@
+uuid: f6c1203f-c5d0-4888-bc13-9688b1720a21
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - donavidatheme
+_core:
+  default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
+id: donavidatheme_account_menu
+theme: donavidatheme
+region: footer_last
+weight: -12
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'Menú de cuenta de usuario'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

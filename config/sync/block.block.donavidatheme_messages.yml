@@ -1,0 +1,22 @@
+uuid: cc1a470c-798f-47da-bce9-b37a41ed6d7f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - donavidatheme
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: donavidatheme_messages
+theme: donavidatheme
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Mensajes de estado'
+  provider: system
+  label_display: '0'
+visibility: {  }

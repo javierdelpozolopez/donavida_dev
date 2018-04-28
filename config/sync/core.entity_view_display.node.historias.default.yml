@@ -1,0 +1,49 @@
+uuid: 2a3f4056-d974-4203-9853-4c83593ec97d
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.historias.body
+    - field.field.node.historias.field_historia_img
+    - field.field.node.historias.field_historia_parrafo
+    - node.type.historias
+  module:
+    - entity_reference_revisions
+    - image
+    - text
+    - user
+id: node.historias.default
+targetEntityType: node
+bundle: historias
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_historia_img:
+    weight: 103
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_historia_parrafo:
+    type: entity_reference_revisions_entity_view
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

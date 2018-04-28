@@ -1,0 +1,11 @@
+uuid: 267d0330-a684-43cf-bb29-44934e80389d
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.boton_de_donativo
+id: node.boton_de_donativo
+target_entity_type_id: node
+target_bundle: boton_de_donativo
+default_langcode: site_default
+language_alterable: false

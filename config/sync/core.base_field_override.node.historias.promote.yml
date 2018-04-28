@@ -1,0 +1,22 @@
+uuid: 03f910f4-e403-46be-ab5f-faf2d0056fa5
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.historias
+id: node.historias.promote
+field_name: promote
+entity_type: node
+bundle: historias
+label: 'Promocionado a la página principal'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

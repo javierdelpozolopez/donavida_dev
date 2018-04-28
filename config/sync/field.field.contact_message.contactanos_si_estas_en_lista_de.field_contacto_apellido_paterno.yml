@@ -1,0 +1,19 @@
+uuid: 2d514b59-aa09-458b-9941-6badba5f25aa
+langcode: es
+status: true
+dependencies:
+  config:
+    - contact.form.contactanos_si_estas_en_lista_de
+    - field.storage.contact_message.field_contacto_apellido_paterno
+id: contact_message.contactanos_si_estas_en_lista_de.field_contacto_apellido_paterno
+field_name: field_contacto_apellido_paterno
+entity_type: contact_message
+bundle: contactanos_si_estas_en_lista_de
+label: 'Región y comuna donde buscarle un contacto'
+description: 'Región y comuna donde contactarlo'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

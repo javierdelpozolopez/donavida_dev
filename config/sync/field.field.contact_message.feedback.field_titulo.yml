@@ -1,0 +1,19 @@
+uuid: 85012496-f127-4971-a59d-9bddd57b39af
+langcode: es
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_titulo
+id: contact_message.feedback.field_titulo
+field_name: field_titulo
+entity_type: contact_message
+bundle: feedback
+label: 'titulo del mensaje'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

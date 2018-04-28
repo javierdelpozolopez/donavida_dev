@@ -1,0 +1,29 @@
+uuid: 75ff92e8-0856-4a40-bf30-82eac3ea206f
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.mitos.body
+    - node.type.mitos
+  module:
+    - text
+    - user
+id: node.mitos.teaser
+targetEntityType: node
+bundle: mitos
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

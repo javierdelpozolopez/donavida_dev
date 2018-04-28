@@ -1,0 +1,19 @@
+uuid: 1cd3346e-b758-4bde-80ee-c0d6adb36477
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.mision_y_vision
+  module:
+    - user
+id: node.mision_y_vision.teaser
+targetEntityType: node
+bundle: mision_y_vision
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

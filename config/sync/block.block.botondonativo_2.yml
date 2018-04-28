@@ -1,0 +1,25 @@
+uuid: 8e27513c-2db2-4496-9b0d-7e57239c7ff4
+langcode: es
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:5c5c425c-57e9-4f72-9457-26aac9c8a619'
+  module:
+    - block_content
+  theme:
+    - donavidatheme
+id: botondonativo_2
+theme: donavidatheme
+region: footer_middle
+weight: -12
+provider: null
+plugin: 'block_content:5c5c425c-57e9-4f72-9457-26aac9c8a619'
+settings:
+  id: 'block_content:5c5c425c-57e9-4f72-9457-26aac9c8a619'
+  label: 'Ayúdanos, haz una donación'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

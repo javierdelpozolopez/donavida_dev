@@ -1,0 +1,22 @@
+uuid: 5840e982-e7a9-49e1-ae1e-ff81c9608f0a
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.intruduccion
+id: node.intruduccion.promote
+field_name: promote
+entity_type: node
+bundle: intruduccion
+label: 'Promocionado a la página principal'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

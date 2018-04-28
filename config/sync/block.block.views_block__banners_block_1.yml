@@ -1,0 +1,30 @@
+uuid: 76966e17-aab1-428a-a694-f309a56d02a6
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.banners
+  module:
+    - system
+    - views
+  theme:
+    - donavidatheme
+id: views_block__banners_block_1
+theme: donavidatheme
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:banners-block_1'
+settings:
+  id: 'views_block:banners-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

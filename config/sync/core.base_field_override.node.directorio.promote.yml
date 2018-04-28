@@ -1,0 +1,22 @@
+uuid: 2e282638-8798-4a07-984e-070c61d238a0
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.directorio
+id: node.directorio.promote
+field_name: promote
+entity_type: node
+bundle: directorio
+label: 'Promocionado a la página principal'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

@@ -1,0 +1,19 @@
+uuid: f741aca9-bd6b-4b7f-ace5-4dcdb4a22288
+langcode: es
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_correo
+id: contact_message.feedback.field_correo
+field_name: field_correo
+entity_type: contact_message
+bundle: feedback
+label: Correo
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

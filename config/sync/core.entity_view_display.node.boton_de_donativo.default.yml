@@ -1,0 +1,27 @@
+uuid: d12c44a2-9316-4dd0-b006-6b24b2ea3d85
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.boton_de_donativo.field_btn
+    - node.type.boton_de_donativo
+  module:
+    - text
+    - user
+id: node.boton_de_donativo.default
+targetEntityType: node
+bundle: boton_de_donativo
+mode: default
+content:
+  field_btn:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

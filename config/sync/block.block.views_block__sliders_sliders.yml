@@ -1,0 +1,30 @@
+uuid: 02ee2d2e-be87-4ac8-8994-d478f6de50ec
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.sliders
+  module:
+    - system
+    - views
+  theme:
+    - donavidatheme
+id: views_block__sliders_sliders
+theme: donavidatheme
+region: header
+weight: 0
+provider: null
+plugin: 'views_block:sliders-sliders'
+settings:
+  id: 'views_block:sliders-sliders'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

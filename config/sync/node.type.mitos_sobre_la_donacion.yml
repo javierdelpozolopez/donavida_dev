@@ -1,0 +1,17 @@
+uuid: 8147b548-b03c-409c-9b01-7aac296d8459
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: banner
+type: mitos_sobre_la_donacion
+description: 'Ingresar banner'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

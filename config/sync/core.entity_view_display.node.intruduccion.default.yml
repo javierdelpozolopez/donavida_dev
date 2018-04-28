@@ -1,0 +1,55 @@
+uuid: 85525a7e-0aae-457f-b26e-4cefa0018eec
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.intruduccion.field_des_intro
+    - field.field.node.intruduccion.field_donativo
+    - field.field.node.intruduccion.field_img_intro
+    - field.field.node.intruduccion.field_titulo_intro
+    - node.type.intruduccion
+  module:
+    - image
+    - text
+    - user
+id: node.intruduccion.default
+targetEntityType: node
+bundle: intruduccion
+mode: default
+content:
+  field_des_intro:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_donativo:
+    weight: 105
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_img_intro:
+    weight: 104
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_titulo_intro:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

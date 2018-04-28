@@ -1,0 +1,30 @@
+uuid: 346fb6b8-8d60-4dfc-830f-2e43d5661b8c
+langcode: es
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_img_intro
+field_name: field_img_intro
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ed1231d1-45ba-417a-b6ad-0d405bb3d28b
+    alt: nosotros
+    title: nosotros
+    width: 661
+    height: 661
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

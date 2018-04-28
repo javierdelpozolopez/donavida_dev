@@ -1,0 +1,17 @@
+uuid: 30e476a2-40be-4e2f-9665-fbda95579f38
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Slide
+type: slide
+description: 'Ingrese un nuevo Slide, será mostrado en el Slider de la Página principal'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

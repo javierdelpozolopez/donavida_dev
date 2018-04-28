@@ -1,0 +1,14 @@
+uuid: 866390e3-24e2-4266-b0b0-ed31bb6aefca
+langcode: es
+status: true
+dependencies: {  }
+name: 'no'
+label: 'noticias banner'
+effects:
+  aec3cccd-e510-4232-8b28-18f335ea74d6:
+    uuid: aec3cccd-e510-4232-8b28-18f335ea74d6
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 200
+      height: 120

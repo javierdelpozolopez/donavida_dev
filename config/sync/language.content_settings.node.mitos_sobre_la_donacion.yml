@@ -1,0 +1,11 @@
+uuid: 9036772d-3572-4554-8a76-81b47d8f2054
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.mitos_sobre_la_donacion
+id: node.mitos_sobre_la_donacion
+target_entity_type_id: node
+target_bundle: mitos_sobre_la_donacion
+default_langcode: site_default
+language_alterable: false

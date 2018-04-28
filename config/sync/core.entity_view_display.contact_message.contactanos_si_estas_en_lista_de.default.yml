@@ -1,0 +1,64 @@
+uuid: 5d4314c3-c095-466f-899e-1faeecd10200
+langcode: es
+status: true
+dependencies:
+  config:
+    - contact.form.contactanos_si_estas_en_lista_de
+    - field.field.contact_message.contactanos_si_estas_en_lista_de.field_contacto_apellido_materno
+    - field.field.contact_message.contactanos_si_estas_en_lista_de.field_contacto_apellido_paterno
+    - field.field.contact_message.contactanos_si_estas_en_lista_de.field_contacto_nombre
+    - field.field.contact_message.contactanos_si_estas_en_lista_de.field_contacto_ru
+    - field.field.contact_message.contactanos_si_estas_en_lista_de.field_correo_electronico
+id: contact_message.contactanos_si_estas_en_lista_de.default
+targetEntityType: contact_message
+bundle: contactanos_si_estas_en_lista_de
+mode: default
+content:
+  field_contacto_apellido_materno:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_contacto_apellido_paterno:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_contacto_nombre:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_contacto_ru:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_correo_electronico:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  message:
+    type: basic_string
+    weight: 5
+    label: above
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

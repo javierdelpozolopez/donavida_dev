@@ -1,0 +1,11 @@
+uuid: c35164c2-c764-48c9-87ad-28cdcf88dbfb
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.mitos
+id: node.mitos
+target_entity_type_id: node
+target_bundle: mitos
+default_langcode: site_default
+language_alterable: false

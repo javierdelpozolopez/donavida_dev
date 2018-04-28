@@ -1,0 +1,11 @@
+uuid: 1b2e0e60-460b-4709-962a-38d4c3464e7b
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.historias
+id: node.historias
+target_entity_type_id: node
+target_bundle: historias
+default_langcode: site_default
+language_alterable: false

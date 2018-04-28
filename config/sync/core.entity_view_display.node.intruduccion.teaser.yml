@@ -1,0 +1,21 @@
+uuid: 3141af5a-ec6f-4d0b-a9a0-5df54c510e8d
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.intruduccion.field_titulo_intro
+    - node.type.intruduccion
+  module:
+    - user
+id: node.intruduccion.teaser
+targetEntityType: node
+bundle: intruduccion
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_titulo_intro: true
+  langcode: true

@@ -1,0 +1,12 @@
+uuid: c6e555ba-0f89-4346-ad61-41af7346a5d0
+langcode: es
+status: true
+dependencies: {  }
+id: t9UQ7FvqR0wMQMnd5n2XukH0kM9liAM9wOhfSLRl2qw
+label: 'http://www.fundaciondonavida.cl/es'
+chunks: 1
+links: 1
+max_filesize: 280
+context:
+  language: es
+updated: 1520711458

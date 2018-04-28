@@ -1,0 +1,18 @@
+smtp_on: true
+smtp_host: fundaciondonavida.cl
+smtp_hostbackup: ''
+smtp_port: '25'
+smtp_protocol: standard
+smtp_username: contacto@fundaciondonavida.cl
+smtp_password: contacto.fundaciondonavida.2020
+smtp_from: contacto@fundaciondonavida.cl
+smtp_fromname: Contacto
+smtp_client_hostname: fundaciondonavida.cl
+smtp_client_helo: ''
+smtp_allowhtml: '1'
+smtp_test_address: ''
+smtp_debugging: false
+prev_mail_system: php_mail
+_core:
+  default_config_hash: WEa5Ex_IeAcm6Bm0hmQ4vU_nDwJDB8hW-vxT1qpGIbM
+langcode: es

@@ -1,0 +1,10 @@
+uuid: 67dac6fd-efec-45ee-a3f2-9c66197d3da2
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Q2Ra3jfoIVk0f3SjxJX61byRQFVBAbpzYDQOiY-kno8
+id: main
+label: 'Main navigation'
+description: 'menu principal del sitio'
+locked: true

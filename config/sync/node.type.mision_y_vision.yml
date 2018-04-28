@@ -1,0 +1,17 @@
+uuid: 398c6646-c37d-46ad-a76f-6b339f151128
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'mision y vision'
+type: mision_y_vision
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

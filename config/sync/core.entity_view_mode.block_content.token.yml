@@ -1,0 +1,10 @@
+uuid: 6d45d018-1517-4a5b-b85c-a8b897270a8b
+langcode: es
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.token
+label: Comodín
+targetEntityType: block_content
+cache: true

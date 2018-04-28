@@ -1,0 +1,22 @@
+uuid: 085743d3-242b-4207-84f3-bd2cd502c372
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.mision_y_vision
+id: node.mision_y_vision.promote
+field_name: promote
+entity_type: node
+bundle: mision_y_vision
+label: 'Promocionado a la página principal'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

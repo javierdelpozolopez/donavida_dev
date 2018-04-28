@@ -1,0 +1,14 @@
+uuid: ebe609a1-e596-4b08-b59a-b7a85b19cc54
+name: 'Fundación Dona Vida'
+mail: contacto@fundaciondonavida.cl
+slogan: 'Por una cultura de la donación'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: es
+default_langcode: es
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

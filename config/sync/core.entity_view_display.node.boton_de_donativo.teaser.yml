@@ -1,0 +1,19 @@
+uuid: 987a6947-f3bb-43ae-bd28-de4650bdce64
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.boton_de_donativo
+  module:
+    - user
+id: node.boton_de_donativo.teaser
+targetEntityType: node
+bundle: boton_de_donativo
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

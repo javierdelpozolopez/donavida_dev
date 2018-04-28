@@ -1,0 +1,13 @@
+uuid: a1fcce09-ce5b-4de7-b357-8e452f375b1e
+langcode: es
+status: true
+dependencies: {  }
+id: contactanos_si_estas_en_lista_de
+label: 'Contáctanos si estas en lista de espera'
+recipients:
+  - contacto@fundaciondonavida.cl
+  - francisco.guerrero@fundaciondonavida.cl
+reply: ''
+weight: 0
+message: 'Gracias por ponerte en contacto con nosotros ¡muy pronto nos contáctaremos contigo!'
+redirect: ''

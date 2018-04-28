@@ -1,0 +1,12 @@
+uuid: 302df1ef-75c1-47a7-8fba-c9d46426379a
+langcode: es
+status: true
+dependencies: {  }
+id: contactanos
+label: Contáctanos
+recipients:
+  - soporte@fundaciondonavida.cl
+reply: ''
+weight: 0
+message: 'Gracias, nos pondremos en contacto a la brevedad'
+redirect: ''

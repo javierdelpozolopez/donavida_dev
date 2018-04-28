@@ -1,0 +1,38 @@
+uuid: abd61c94-e96c-4661-82a6-d806516a893f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_img_intro
+    - node.type.intruduccion
+  module:
+    - image
+id: node.intruduccion.field_img_intro
+field_name: field_img_intro
+entity_type: node
+bundle: intruduccion
+label: 'intro imagen'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

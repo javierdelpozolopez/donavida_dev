@@ -1,0 +1,89 @@
+progress:
+  '#changed': 1520711941
+  '#changed_by': '1'
+  '#completed_items': 28
+  '#items':
+    install_and_enable_seo_checklist_module:
+      '#completed': 1520711941
+      '#uid': '1'
+    install_and_enable_admin_toolbar_module:
+      '#completed': 1520711941
+      '#uid': '1'
+    install_composer_command_line_tool:
+      '#completed': 1520711941
+      '#uid': '1'
+    install_console_command_line_tool:
+      '#completed': 1520711941
+      '#uid': '1'
+    install_drush_command_line_tool:
+      '#completed': 1520711941
+      '#uid': '1'
+    show_cli_commands:
+      '#completed': 1520711941
+      '#uid': '1'
+    enable_clean_urls:
+      '#completed': 1520711941
+      '#uid': '1'
+    install_and_enable_redirect_module:
+      '#completed': 1520711941
+      '#uid': '1'
+    configure_the_redirect_module:
+      '#completed': 1520711941
+      '#uid': '1'
+    install_and_enable_pathauto_module:
+      '#completed': 1520711941
+      '#uid': '1'
+    configure_pathauto_module:
+      '#completed': 1520711941
+      '#uid': '1'
+    create_pathauto_patterns:
+      '#completed': 1520711941
+      '#uid': '1'
+    install_and_enable_metatag_module:
+      '#completed': 1520711941
+      '#uid': '1'
+    install_and_enable_alternate_hreflang_module:
+      '#completed': 1520711941
+      '#uid': '1'
+    install_and_enable_xml_sitemap_module:
+      '#completed': 1520711941
+      '#uid': '1'
+    configure_xml_sitemap_module:
+      '#completed': 1520711941
+      '#uid': '1'
+    set_up_cron:
+      '#completed': 1520711941
+      '#uid': '1'
+    get_a_google_account:
+      '#completed': 1520711941
+      '#uid': '1'
+    verify_with_google_search_console:
+      '#completed': 1520711941
+      '#uid': '1'
+    submit_xml_sitemap_to_google:
+      '#completed': 1520711941
+      '#uid': '1'
+    submit_xml_sitemap_to_bing:
+      '#completed': 1520711941
+      '#uid': '1'
+    install_and_enable_google_analytics_module:
+      '#completed': 1520711941
+      '#uid': '1'
+    configure_google_analytics_module:
+      '#completed': 1520711941
+      '#uid': '1'
+    verify_your_site_is_sending_data_to_google_analytics:
+      '#completed': 1520711941
+      '#uid': '1'
+    cache_the_google_analytics_code:
+      '#completed': 1520711941
+      '#uid': '1'
+    install_and_enable_w3c_validator_module:
+      '#completed': 1520711941
+      '#uid': '1'
+    configure_image_styles:
+      '#completed': 1520711941
+      '#uid': '1'
+    download_free_internet_marketing_resources_from_volacci:
+      '#completed': 1520711941
+      '#uid': '1'

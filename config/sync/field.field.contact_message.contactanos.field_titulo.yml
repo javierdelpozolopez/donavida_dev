@@ -1,0 +1,19 @@
+uuid: c6dadd7c-5563-4631-9b88-d6baebaa2cb3
+langcode: es
+status: true
+dependencies:
+  config:
+    - contact.form.contactanos
+    - field.storage.contact_message.field_titulo
+id: contact_message.contactanos.field_titulo
+field_name: field_titulo
+entity_type: contact_message
+bundle: contactanos
+label: 'titulo del mensaje'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

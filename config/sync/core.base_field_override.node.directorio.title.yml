@@ -1,0 +1,18 @@
+uuid: d0bbf747-523e-4195-80ba-5f46ff871a99
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.directorio
+id: node.directorio.title
+field_name: title
+entity_type: node
+bundle: directorio
+label: 'Nombre y Apellido'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

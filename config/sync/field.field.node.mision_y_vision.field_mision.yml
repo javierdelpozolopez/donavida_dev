@@ -1,0 +1,21 @@
+uuid: 310315de-4866-459b-8f11-080383397dd4
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mision
+    - node.type.mision_y_vision
+  module:
+    - options
+id: node.mision_y_vision.field_mision
+field_name: field_mision
+entity_type: node
+bundle: mision_y_vision
+label: 'mision o vision'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

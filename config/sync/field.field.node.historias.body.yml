@@ -1,0 +1,22 @@
+uuid: 5cc777e2-e6a8-4078-aaf5-8464d8c602ae
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.historias
+  module:
+    - text
+id: node.historias.body
+field_name: body
+entity_type: node
+bundle: historias
+label: Intro
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

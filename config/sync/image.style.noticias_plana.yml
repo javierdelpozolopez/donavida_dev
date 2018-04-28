@@ -1,0 +1,14 @@
+uuid: d50e10ef-3fd5-4e8b-b1e3-9d9b01fb6831
+langcode: es
+status: true
+dependencies: {  }
+name: noticias_plana
+label: 'noticias plana'
+effects:
+  70785203-b81b-4d8e-8fc2-fa01af6a41f2:
+    uuid: 70785203-b81b-4d8e-8fc2-fa01af6a41f2
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1200
+      height: 300

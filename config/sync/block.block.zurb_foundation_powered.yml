@@ -1,0 +1,22 @@
+uuid: 58e76c6d-cf7e-4f7f-98c5-97b347b59613
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - zurb_foundation
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: zurb_foundation_powered
+theme: zurb_foundation
+region: header
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Funciona con Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

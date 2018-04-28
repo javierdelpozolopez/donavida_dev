@@ -1,0 +1,35 @@
+uuid: d9d40355-3fa1-44cd-b400-55dc91d6c8dd
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+    - webform
+  theme:
+    - donavidatheme
+id: formularioweb
+theme: donavidatheme
+region: content
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Estoy en lista de Espera'
+  provider: webform
+  label_display: '0'
+  webform_id: estoy_en_lista_de_espera
+  default_data: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: /estoy-en-lista-de-espera
+    negate: false
+    context_mapping: {  }
+  webform:
+    id: webform
+    webforms:
+      estoy_en_lista_de_espera: estoy_en_lista_de_espera
+    negate: true
+    context_mapping:
+      webform_submission: '@webform.webform_submission_route_context:webform_submission'
